@@ -3,7 +3,60 @@
 <head>
    <title>Text Matcher</title>
     <style>
-       
+        body 
+        {
+            font-family: Arial, sans-serif;
+            background-color: #d4bd89;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .app-container 
+        {
+            background-color: #b2bbd8;
+            padding: 20px;
+            border-radius: 10px;
+            border: 5px double #bd5353; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+
+        }
+        .app-heading 
+        {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .text-container 
+        {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .input-text 
+        {
+            width: 200px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .match-result 
+        {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .not-matched {
+            color: red;
+        }
+        .matched {
+            color: green;
+        }
     </style>
 </head>
 
